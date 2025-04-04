@@ -34,3 +34,9 @@ abra [http://localhost:3000](http://localhost:3000) para rodar em sua máquina.
 
 Você encontrará todas as regras em: /src/components/imcCalc.tsx;
 
+
+https://github.com/user-attachments/assets/7d25156f-9b03-49c0-9755-224e47014b2b
+
+
+
+
