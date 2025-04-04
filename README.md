@@ -15,10 +15,12 @@ Tailwind
 
 Para rodar dependências:
 
+```bash
 npm install
+```
 
 Em seguinda, para rodar em sua máquina:
-
+```bash
 npm run dev
 # or
 yarn dev
