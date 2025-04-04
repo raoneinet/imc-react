@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Regras:
+* Verificar se números inseridos são válidos, e devem ser diferentes de zero;
+* Verificar se campos estão vazios;
+* Manipulação e conversão de strings p/ números;
+* Calcular os valores de acordo com cálculo de IMC.
 
-## Getting Started
+Métodos/funções:
+* Botão verde que executa cálculo mátemático;
+* Botão vermelho que limpa inputs e campo de resposta;
+* botão no rodapé que exibe cáculo de IMC.
+
+No código:
+React.js
+Tailwind
 
 First, run the development server:
 
