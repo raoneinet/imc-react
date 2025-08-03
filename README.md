@@ -1,38 +1,80 @@
-Regras:
-* Verificar se números inseridos são válidos, e devem ser diferentes de zero;
-* Verificar se campos estão vazios;
-* Manipulação e conversão de strings p/ números;
-* Calcular os valores de acordo com cálculo de IMC.
+# 🧮 Calculadora de IMC - React.js + Tailwind CSS
 
-Métodos/funções:
-* Botão verde que executa cálculo mátemático;
-* Botão vermelho que limpa inputs e campo de resposta;
-* botão no rodapé que exibe cáculo de IMC.
+Aplicação React para cálculo do Índice de Massa Corporal (IMC) com validação de entradas, botões de controle e interface estilizada usando Tailwind CSS.
 
-No código:
-React.js
-Tailwind
+---
 
-Para rodar dependências:
+## ⚙️ Funcionalidades e Regras
 
-```bash
+- **Validações:**
+  - Verifica se os números inseridos são válidos e diferentes de zero;
+  - Confirma que nenhum campo esteja vazio;
+  - Manipula e converte strings para números corretamente;
+
+- **Cálculo do IMC:**
+  \[
+  \text{IMC} = \frac{\text{peso}}{\text{altura} \times \text{altura}}
+  \]
+
+- **Botões:**
+  - Botão verde: executa o cálculo do IMC;
+  - Botão vermelho: limpa os campos de input e o resultado exibido;
+  - Botão fixo no rodapé que também executa o cálculo.
+
+- Código principal com regras e lógica em:  
+  `/src/components/imcCalc.tsx`
+
+---
+
+## 🚀 Como rodar a aplicação localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/calculadora-imc.git
+   cd calculadora-imc
+Instale as dependências:
+
+bash
+
 npm install
-```
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+Rode a aplicação:
 
-Em seguinda, para rodar em sua máquina:
-```bash
+bash
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
+Abra no navegador o endereço:
 
-abra [http://localhost:3000](http://localhost:3000) para rodar em sua máquina.
+http://localhost:3000
+🧱 Tecnologias utilizadas
+React.js (com TypeScript)
 
-Você encontrará todas as regras em: /src/components/imcCalc.tsx;
+Tailwind CSS
+
+Vite (ou outro bundler conforme configuração)
+
+💡 Dicas
+O componente imcCalc.tsx contém toda a lógica do cálculo e validações;
+
+Estilização feita com Tailwind, garantindo design responsivo e clean;
+
+Botões coloridos indicam ações distintas para facilitar a UX.
+
+
+✍️ Autor
+Desenvolvido por Raone Ferreira
 
 
 https://github.com/user-attachments/assets/7d25156f-9b03-49c0-9755-224e47014b2b
